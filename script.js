@@ -17,6 +17,7 @@ $('body')
                     .addClass('btn')
                     .click(ev => {
                         if ($('.newtask').val().trim() != '') {
+                            //trim removes spaces
                             $('.tasklist')
                                 .append(
                                     $('<li>')
